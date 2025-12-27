@@ -62,7 +62,7 @@ Switch chatbot behavior instantly:
 ```text
 ai-chatbot/
 │
-├── app.py              # Main Streamlit application
+├── qachat.py              # Main Streamlit application
 ├── .env                # Environment variables (API key)
 ├── requirements.txt    # Python dependencies
 └── README.md           # Project documentation
@@ -75,7 +75,7 @@ ai-chatbot/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ai-chatbot.git
+git clone https://github.com/kishankumar1047/ai-chatbot.git
 cd ai-chatbot
 ```
 
@@ -114,7 +114,7 @@ GEMINI_API_KEY=your_api_key_here
 ### 5️⃣ Run the Application
 
 ```bash
-streamlit run app.py
+streamlit run qachat.py
 ```
 
 The chatbot will be available at:
